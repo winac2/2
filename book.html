@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>KK book store</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <table>
+          <tr>
+            <th>
+              <a href="mainpage.html"> Trang chủ</a>
+            </th>
+            <th><a href="gioithieu.html">Giới thiệu</a></th>
+            <th><a href="quydinh.html">Quy định</a></th>
+          </tr>
+        </table>
+      </div>
+    </header>
+    <main>
+      <br />
+      <br />
+      <form id="submit" method="post" action="" onsubmit="return false">
+
+        <label for="ten-sach">tên sách</label><br />
+        <input type="text" id="ten-sach" /><br />
+        <div id="ten-sach-err"></div><br />
+        
+        <label for="sdt">số điện thoại</label><br />
+        <input type="text" id="sdt" /><br />
+        <div id="sdt-err"></div><br />
+        
+        <label for="ten-nguoi-dat">tên người đặt</label><br />
+        <input type="text" id="ten-nguoi-dat" /><br />
+        <div id="ten-nguoi-dat-err"></div><br />
+
+        <label for="time">giờ</label><br />
+        <input type="number" id="time"/><br />
+        <div id="time-err"></div><br />
+        
+        <br />
+
+        <input type="submit" value="gửi" id="gui" />
+
+        <br />
+        <label for="time" >GIÁ TIỀN</label><br />
+        <div id="gia-err"></div><br />
+
+    </form>
+    <br>
+    </main>
+    <footer>
+      <br />
+      <hr />
+      <p>Địa chỉ: 02 Lê Hồng Phong , phường Phước Hải, thành phố Nha Trang</p>
+      <p>hotline: 02583814865</p>
+      <p>
+        <a href="http://www.facebook.com/tiemsachKkStore">
+          Fanpage: http://www.facebook.com/tiemsachKkStore</a
+        >
+      </p>
+    </footer>
+    <script src="js.js"></script>
+  </body>
+</html>

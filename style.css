@@ -1,0 +1,50 @@
+body {
+    font-family: "Dancing Script";
+    font-size: 25px;
+    background-color: lightblue;
+     text-align: left;
+}
+header{
+    background-color: blueviolet;
+}
+
+
+table{
+    background-color: red;
+    text-align: center;
+    
+
+}
+
+tr{
+    background-color: yellow;
+}
+
+th
+{
+    background-color: blue;
+}
+a
+{
+    color: white;
+}
+.mau
+{
+    color: black;
+}
+.mauth
+{
+    background-color: yellow;
+}
+div
+{
+    float: left;
+}
+h3{
+    color: red
+    ;
+    
+}
+
+    
+
